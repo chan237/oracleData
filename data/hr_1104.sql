@@ -77,5 +77,24 @@ SELECT * FROM employees;
 SELECT * FROM employees WHERE commission_pct is null;
 SELECT * FROM employees WHERE commission_pct is not null;
 
---정렬을 위한 ORDER BY 절
+--정렬을 위한 ORDER BY 절(오름차순 asc, 내림차순 desc)
+select employee_id, first_name from employees order by EMPLOYEE_ID ASC;
+
+--group by
+SELECT * FROM employees;
+SELECT * FROM employees where department_ID >= 70;
+SELECT department_ID, salary from employees where department_ID >= 70;
+SELECT department_ID, salary from employees where department_ID >= 70 group by department_ID;
+SELECT department_ID, max(salary), min(salary), sum(salary), round(avg(salary),1), count(salary) from employees 
+    where department_ID >= 70 group by department_ID having sum(salary) >= 30000;
+
+--전체를 기준으로 group by는 생략된다
+SELECT sum(salary) from employees;
+
+--기준점 두개도 가능
+SELECT department_ID, salary from employees where department_ID >= 70 group by department_ID, salary;
+SELECT department_ID, salary, max(salary), min(salary), sum(salary), round(avg(salary),1), count(salary) from employees where department_ID >= 70 group by department_ID, salary;
+
+--substr
+select substr('DataBase', 1,3) from dual;
 
