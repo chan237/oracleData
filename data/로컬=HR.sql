@@ -13,3 +13,5 @@ create table EMP01(
     name VARCHAR2(20) not null,
     salary NUMBER(10,2) DEFAULT 1000.0
 );
+
+
