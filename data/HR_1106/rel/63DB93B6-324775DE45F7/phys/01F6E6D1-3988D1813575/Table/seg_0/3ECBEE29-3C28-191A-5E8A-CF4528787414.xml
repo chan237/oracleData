@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="REGIONS" directorySegmentName="seg_0" id="3ECBEE29-3C28-191A-5E8A-CF4528787414">
+<createdBy>1</createdBy>
+<createdTime>2024-11-06 06:42:05 UTC</createdTime>
+<ownerDesignName>HR_1106</ownerDesignName>
+<schemaObject>C1346A4F-925D-347C-A6A2-C3E828E2760B</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>90E4B079-2F3E-E4CE-23EF-8064BCA83860</segment>
+<tableSpace>7F2DD4C1-C667-CC0E-418E-8F2BAB4B3434</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="REGION_NAME" id="7FAF6400-312A-630F-9F5F-9CC836C0F0BD">
+<createdBy>1</createdBy>
+<createdTime>2024-11-06 06:42:05 UTC</createdTime>
+<ownerDesignName>HR_1106</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="REGION_ID" id="A5B42266-8589-701A-C1E0-0E2B1AE0F810">
+<createdBy>1</createdBy>
+<createdTime>2024-11-06 06:42:05 UTC</createdTime>
+<ownerDesignName>HR_1106</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="REG_ID_PK" id="85982990-2FA8-B72B-5863-EAC13F4F1DE3">
+<createdBy>1</createdBy>
+<createdTime>2024-11-06 06:42:05 UTC</createdTime>
+<ownerDesignName>HR_1106</ownerDesignName>
+<schemaObject>C1346A4F-925D-347C-A6A2-C3E828E2760B</schemaObject>
+<segment>94CDA361-393F-79D3-6FA8-29065C2F64A8</segment>
+<tableSpace>7F2DD4C1-C667-CC0E-418E-8F2BAB4B3434</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="REG_ID_PK" id="4883BE7C-DF3A-9910-C3E6-F6E7BC6E32CD">
+<createdBy>1</createdBy>
+<createdTime>2024-11-06 06:42:06 UTC</createdTime>
+<ownerDesignName>HR_1106</ownerDesignName>
+<segment>94CDA361-393F-79D3-6FA8-29065C2F64A8</segment>
+<tableSpace>7F2DD4C1-C667-CC0E-418E-8F2BAB4B3434</tableSpace>
+<existingIndex>85982990-2FA8-B72B-5863-EAC13F4F1DE3</existingIndex>
+<indexSegment>94CDA361-393F-79D3-6FA8-29065C2F64A8</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>
