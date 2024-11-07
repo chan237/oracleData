@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D15BF3C0-69EC-6424-575E-08A7FE57B59B" containerWithKeyObject="B260E304-AAB6-CA78-B960-D75D422457C3" localFKIndex="5D10EF17-5DA2-6C01-CB62-18CBDB574F0B" name="VIDRETURN_USER_NO_FK">
+<sourceConnName>로컬=HR</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>VIDRETURN_USER_NO_FK</sourceObjName>
+<createdBy>1</createdBy>
+<createdTime>2024-11-07 15:12:11 UTC</createdTime>
+<ownerDesignName>hr_1107_1</ownerDesignName>
+<referredTableLongName>HR.MAIN_USER</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>E7BEBC4C-2C10-DBBF-C1C1-9335F1E964A3</referredTableID>
+<keyObject>3B13D256-D117-D0DB-FCE8-F054CB691F29</keyObject>
+<referredKeyID>3B13D256-D117-D0DB-FCE8-F054CB691F29</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>USER_NO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

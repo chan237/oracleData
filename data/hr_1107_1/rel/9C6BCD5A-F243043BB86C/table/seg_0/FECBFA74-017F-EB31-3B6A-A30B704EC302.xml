@@ -1,0 +1,164 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FECBFA74-017F-EB31-3B6A-A30B704EC302" schemaObject="3E842D69-D40C-C429-2635-0616E429F1BE" name="VIDEO">
+<sourceConnName>로컬=HR</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>VIDEO</sourceObjName>
+<createdBy>1</createdBy>
+<createdTime>2024-11-07 15:12:07 UTC</createdTime>
+<ownerDesignName>hr_1107_1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="VIDNO" id="05E3C774-3354-7D94-2DEF-E7148788233A">
+<sourceConnName>로컬=HR</sourceConnName>
+<sourceObjSchema>VIDEO</sourceObjSchema>
+<sourceObjName>VIDNO</sourceObjName>
+<createdBy>1</createdBy>
+<createdTime>2024-11-07 15:12:07 UTC</createdTime>
+<ownerDesignName>hr_1107_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VIDNAME" id="8C04F94F-8269-8EC8-09E3-4C8CC7C51AAE">
+<sourceConnName>로컬=HR</sourceConnName>
+<sourceObjSchema>VIDEO</sourceObjSchema>
+<sourceObjName>VIDNAME</sourceObjName>
+<createdBy>1</createdBy>
+<createdTime>2024-11-07 15:12:07 UTC</createdTime>
+<ownerDesignName>hr_1107_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VIDTYPE" id="FDD329CA-9560-FFD8-0025-493790812AB5">
+<sourceConnName>로컬=HR</sourceConnName>
+<sourceObjSchema>VIDEO</sourceObjSchema>
+<sourceObjName>VIDTYPE</sourceObjName>
+<createdBy>1</createdBy>
+<createdTime>2024-11-07 15:12:07 UTC</createdTime>
+<ownerDesignName>hr_1107_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VIDPRICE" id="8CAD342D-41B3-D9C8-E1A2-1165C70976A7">
+<sourceConnName>로컬=HR</sourceConnName>
+<sourceObjSchema>VIDEO</sourceObjSchema>
+<sourceObjName>VIDPRICE</sourceObjName>
+<createdBy>1</createdBy>
+<createdTime>2024-11-07 15:12:07 UTC</createdTime>
+<ownerDesignName>hr_1107_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,7,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VIDNOW" id="6A5F41AE-BFC2-A99C-93B9-7618537101EB">
+<sourceConnName>로컬=HR</sourceConnName>
+<sourceObjSchema>VIDEO</sourceObjSchema>
+<sourceObjName>VIDNOW</sourceObjName>
+<createdBy>1</createdBy>
+<createdTime>2024-11-07 15:12:07 UTC</createdTime>
+<ownerDesignName>hr_1107_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,1,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VIDCOPER" id="ECEA5E39-5A31-797E-F6D3-53BD1B616990">
+<sourceConnName>로컬=HR</sourceConnName>
+<sourceObjSchema>VIDEO</sourceObjSchema>
+<sourceObjName>VIDCOPER</sourceObjName>
+<createdBy>1</createdBy>
+<createdTime>2024-11-07 15:12:07 UTC</createdTime>
+<ownerDesignName>hr_1107_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VIDOPEN" id="83F63D12-5F8A-2A2A-039F-938AFF886BA5">
+<sourceConnName>로컬=HR</sourceConnName>
+<sourceObjSchema>VIDEO</sourceObjSchema>
+<sourceObjName>VIDOPEN</sourceObjName>
+<createdBy>1</createdBy>
+<createdTime>2024-11-07 15:12:07 UTC</createdTime>
+<ownerDesignName>hr_1107_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VIDLEVEL" id="8EC98A20-2D2C-32D4-19F9-4DFD8DECE752">
+<sourceConnName>로컬=HR</sourceConnName>
+<sourceObjSchema>VIDEO</sourceObjSchema>
+<sourceObjName>VIDLEVEL</sourceObjName>
+<createdBy>1</createdBy>
+<createdTime>2024-11-07 15:12:07 UTC</createdTime>
+<ownerDesignName>hr_1107_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,1,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8A6077EE-5BC0-A034-E5D5-DD8845DDA242" name="VIDEO_VIDNO_PK">
+<sourceConnName>로컬=HR</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>VIDEO_VIDNO_PK</sourceObjName>
+<createdBy>1</createdBy>
+<createdTime>2024-11-07 15:12:10 UTC</createdTime>
+<ownerDesignName>hr_1107_1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="05E3C774-3354-7D94-2DEF-E7148788233A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6528EAE6-AC1A-C6C5-8A14-77E16E803E6B" schemaObject="3E842D69-D40C-C429-2635-0616E429F1BE" name="VIDEO_VIDNO_PK">
+<sourceConnName>로컬=HR</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>VIDEO_VIDNO_PK</sourceObjName>
+<createdBy>1</createdBy>
+<createdTime>2024-11-07 15:12:10 UTC</createdTime>
+<ownerDesignName>hr_1107_1</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="05E3C774-3354-7D94-2DEF-E7148788233A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

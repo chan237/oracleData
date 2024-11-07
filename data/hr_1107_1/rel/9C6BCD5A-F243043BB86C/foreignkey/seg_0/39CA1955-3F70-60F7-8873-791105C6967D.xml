@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="39CA1955-3F70-60F7-8873-791105C6967D" containerWithKeyObject="B260E304-AAB6-CA78-B960-D75D422457C3" localFKIndex="62FED6EB-219E-912A-DAF4-DE5D1B54911D" name="VIDRETURN_VIDNO_FK">
+<sourceConnName>로컬=HR</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>VIDRETURN_VIDNO_FK</sourceObjName>
+<createdBy>1</createdBy>
+<createdTime>2024-11-07 15:12:11 UTC</createdTime>
+<ownerDesignName>hr_1107_1</ownerDesignName>
+<referredTableLongName>HR.VIDEO</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>FECBFA74-017F-EB31-3B6A-A30B704EC302</referredTableID>
+<keyObject>8A6077EE-5BC0-A034-E5D5-DD8845DDA242</keyObject>
+<referredKeyID>8A6077EE-5BC0-A034-E5D5-DD8845DDA242</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>VIDNO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
