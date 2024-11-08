@@ -12,64 +12,6 @@
 <accessDriverType>oracle_loader</accessDriverType>
 <rejectLimit></rejectLimit>
 <inMemory>NO</inMemory>
-<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
-<ColumnProxy name="PASSWD" id="482A28A1-8312-169A-E62F-C62EC683D4AB">
-<createdBy>1</createdBy>
-<createdTime>2024-11-08 01:51:18 UTC</createdTime>
-<ownerDesignName>CLASS</ownerDesignName>
-</ColumnProxy>
-<ColumnProxy name="INDATE" id="550F9B16-753E-B2DF-B5FC-5F70004197E5">
-<createdBy>1</createdBy>
-<createdTime>2024-11-08 01:51:18 UTC</createdTime>
-<ownerDesignName>CLASS</ownerDesignName>
-<defaultValue>SYSDATE</defaultValue>
-</ColumnProxy>
-<ColumnProxy name="PHONE" id="55CED5D5-CEE5-5F79-D18A-1DB5D585E18E">
-<createdBy>1</createdBy>
-<createdTime>2024-11-08 01:51:18 UTC</createdTime>
-<ownerDesignName>CLASS</ownerDesignName>
-</ColumnProxy>
-<ColumnProxy name="ID" id="563332E2-F1C1-45CC-7C3A-A99F5F4ECFD3">
-<createdBy>1</createdBy>
-<createdTime>2024-11-08 01:51:18 UTC</createdTime>
-<ownerDesignName>CLASS</ownerDesignName>
-</ColumnProxy>
-<ColumnProxy name="JUMIN" id="6E39433D-1FAD-86D0-2525-9272C2A81106">
-<createdBy>1</createdBy>
-<createdTime>2024-11-08 01:51:18 UTC</createdTime>
-<ownerDesignName>CLASS</ownerDesignName>
-</ColumnProxy>
-<ColumnProxy name="ADDRESS" id="8083FE27-C64A-97CA-397C-53D20B3AFD4D">
-<createdBy>1</createdBy>
-<createdTime>2024-11-08 01:51:18 UTC</createdTime>
-<ownerDesignName>CLASS</ownerDesignName>
-</ColumnProxy>
-<ColumnProxy name="NO" id="A5DD5217-F686-4E60-D810-6DEDC277CE28">
-<createdBy>1</createdBy>
-<createdTime>2024-11-08 01:51:18 UTC</createdTime>
-<ownerDesignName>CLASS</ownerDesignName>
-</ColumnProxy>
-<ColumnProxy name="NUM" id="AE2B3664-919E-D97A-E7B6-C7E84E3A529C">
-<createdBy>1</createdBy>
-<createdTime>2024-11-08 01:51:18 UTC</createdTime>
-<ownerDesignName>CLASS</ownerDesignName>
-</ColumnProxy>
-<ColumnProxy name="S_NUM" id="C682DFC5-455E-AD59-7DE0-63FB240F4413">
-<createdBy>1</createdBy>
-<createdTime>2024-11-08 01:51:18 UTC</createdTime>
-<ownerDesignName>CLASS</ownerDesignName>
-</ColumnProxy>
-<ColumnProxy name="NAME" id="CD7AA2F5-A0C9-FF7E-F75F-CBBF12E4BFEB">
-<createdBy>1</createdBy>
-<createdTime>2024-11-08 01:51:18 UTC</createdTime>
-<ownerDesignName>CLASS</ownerDesignName>
-</ColumnProxy>
-<ColumnProxy name="EMAIL" id="FA223E1A-6E0D-D772-871E-4A0FC65D0F7D">
-<createdBy>1</createdBy>
-<createdTime>2024-11-08 01:51:18 UTC</createdTime>
-<ownerDesignName>CLASS</ownerDesignName>
-</ColumnProxy>
-</columnProxies>
 <indexProxies>
 <IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="STUDENT_NUM_UK" id="2477F58F-CA4F-20F3-C73F-CAF5709AC1BA">
 <createdBy>1</createdBy>
@@ -102,7 +44,6 @@
 <ownerDesignName>CLASS</ownerDesignName>
 <segment>AEE4F4FA-8EC6-5912-2BE6-A4D899D2BD40</segment>
 <tableSpace>70225BF6-20B3-C797-7D81-E1BE28F783EB</tableSpace>
-<existingIndex>3F5C8653-F3FE-5E03-F489-D96DE5754530</existingIndex>
 <indexSegment>AEE4F4FA-8EC6-5912-2BE6-A4D899D2BD40</indexSegment>
 <indexSort>SORTED</indexSort>
 <usingIndex>BY INDEX NAME</usingIndex>
@@ -115,7 +56,6 @@
 <ownerDesignName>CLASS</ownerDesignName>
 <segment>AEE4F4FA-8EC6-5912-2BE6-A4D899D2BD40</segment>
 <tableSpace>70225BF6-20B3-C797-7D81-E1BE28F783EB</tableSpace>
-<existingIndex>2477F58F-CA4F-20F3-C73F-CAF5709AC1BA</existingIndex>
 <indexSegment>AEE4F4FA-8EC6-5912-2BE6-A4D899D2BD40</indexSegment>
 <indexSort>SORTED</indexSort>
 <usingIndex>BY INDEX NAME</usingIndex>
