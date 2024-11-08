@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="STUDENT" directorySegmentName="seg_0" id="D8CDF62B-0153-ACB5-1A0A-A42F899B81FC">
+<createdBy>1</createdBy>
+<createdTime>2024-11-08 01:51:17 UTC</createdTime>
+<ownerDesignName>CLASS</ownerDesignName>
+<schemaObject>45FA0792-8E3C-35C2-ABB4-9CE9E06FE8E9</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>0A13B469-7C06-4EEF-BD18-684D3FDDAA9F</segment>
+<tableSpace>70225BF6-20B3-C797-7D81-E1BE28F783EB</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="STUDENT_NUM_UK" id="2477F58F-CA4F-20F3-C73F-CAF5709AC1BA">
+<createdBy>1</createdBy>
+<createdTime>2024-11-08 01:51:21 UTC</createdTime>
+<ownerDesignName>CLASS</ownerDesignName>
+<schemaObject>45FA0792-8E3C-35C2-ABB4-9CE9E06FE8E9</schemaObject>
+<segment>AEE4F4FA-8EC6-5912-2BE6-A4D899D2BD40</segment>
+<tableSpace>70225BF6-20B3-C797-7D81-E1BE28F783EB</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="STUDENT_NO_PK" id="3F5C8653-F3FE-5E03-F489-D96DE5754530">
+<createdBy>1</createdBy>
+<createdTime>2024-11-08 01:51:21 UTC</createdTime>
+<ownerDesignName>CLASS</ownerDesignName>
+<schemaObject>45FA0792-8E3C-35C2-ABB4-9CE9E06FE8E9</schemaObject>
+<segment>AEE4F4FA-8EC6-5912-2BE6-A4D899D2BD40</segment>
+<tableSpace>70225BF6-20B3-C797-7D81-E1BE28F783EB</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="STUDENT_S_NUM_FK" id="5520FBDF-9D69-ECCE-2BA4-4E0699452301">
+<createdBy>1</createdBy>
+<createdTime>2024-11-08 01:51:22 UTC</createdTime>
+<ownerDesignName>CLASS</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="STUDENT_NO_PK" id="40D217E7-675C-18B1-C7CB-6772FED20539">
+<createdBy>1</createdBy>
+<createdTime>2024-11-08 01:51:21 UTC</createdTime>
+<ownerDesignName>CLASS</ownerDesignName>
+<segment>AEE4F4FA-8EC6-5912-2BE6-A4D899D2BD40</segment>
+<tableSpace>70225BF6-20B3-C797-7D81-E1BE28F783EB</tableSpace>
+<indexSegment>AEE4F4FA-8EC6-5912-2BE6-A4D899D2BD40</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="STUDENT_NUM_UK" id="F6250074-0B62-F6AE-5D7C-6886A4EC410A">
+<createdBy>1</createdBy>
+<createdTime>2024-11-08 01:51:21 UTC</createdTime>
+<ownerDesignName>CLASS</ownerDesignName>
+<segment>AEE4F4FA-8EC6-5912-2BE6-A4D899D2BD40</segment>
+<tableSpace>70225BF6-20B3-C797-7D81-E1BE28F783EB</tableSpace>
+<indexSegment>AEE4F4FA-8EC6-5912-2BE6-A4D899D2BD40</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev20c>

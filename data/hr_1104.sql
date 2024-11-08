@@ -77,5 +77,43 @@ SELECT * FROM employees;
 SELECT * FROM employees WHERE commission_pct is null;
 SELECT * FROM employees WHERE commission_pct is not null;
 
---정렬을 위한 ORDER BY 절
+--정렬을 위한 ORDER BY 절(오름차순 asc, 내림차순 desc)
+select employee_id, first_name from employees order by EMPLOYEE_ID ASC;
+
+--group by
+SELECT * FROM employees;
+SELECT * FROM employees where department_ID >= 70;
+SELECT department_ID, salary from employees where department_ID >= 70;
+SELECT department_ID, salary from employees where department_ID >= 70 group by department_ID;
+SELECT department_ID, max(salary), min(salary), sum(salary), round(avg(salary),1), count(salary) from employees 
+    where department_ID >= 70 group by department_ID having sum(salary) >= 30000;
+
+--전체를 기준으로 group by는 생략된다
+SELECT sum(salary) from employees;
+
+--기준점 두개도 가능
+SELECT department_ID, salary from employees where department_ID >= 70 group by department_ID, salary;
+SELECT department_ID, salary, max(salary), min(salary), sum(salary), round(avg(salary),1), count(salary) from employees where department_ID >= 70 group by department_ID, salary;
+
+--substr
+select substr('DataBase', 1,3) from dual;
+
+--20번 부서에서 사원들의 입사년도 가져오기
+SELECT employee_id, first_name, substr(hire_date, 1, 2)||'년도' as "입사년도" FROM employees where department_id = 20;
+
+--trim으로 처리 TRIM은 양쪽 공백을 제거하고, LTRIM은 왼쪽 공백, RTRIM은 오른쪽 공백을 제거
+SELECT TRIM(LEADING FROM ' ABCD ') LT, LENGTH(TRIM(LEADING FROM '        ABCD ')) 
+    LT_LEN, TRIM(TRAILING FROM ' ABCD ') RT, LENGTH(TRIM(TRAILING FROM '        ABCD '))
+    RT_LEN, TRIM(BOTH FROM '    ABCD ') BOTH1, LENGTH(TRIM(BOTH FROM '    ABCD ')) 
+    BOTH1, TRIM('    ABCD    ') BOTHT2, LENGTH(TRIM(' ABCD ')) BOTHLEN2
+FROM DUAL;
+
+
+--부서 30번 소속된 직원들 근무달수를 구하기
+SELECT first_name, hire_date as 입사일, sysdate as 현재날짜, 
+    round(months_between(sysdate, hire_date))as "근무달수" 
+    FROM employees where department_id = 30;
+    
+--next_day() 함수의 기능
+SELECT sysdate,to_char(sysdate, 'YYYY/MM/DD HH24:MI:SS'), next_day(sysdate, '수요일') from dual;
 

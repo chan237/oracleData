@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="074ECAE3-9D30-543B-5493-F850D25A568A" schemaObject="45FA0792-8E3C-35C2-ABB4-9CE9E06FE8E9" name="LESSON">
+<sourceConnName>로컬=HR</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>LESSON</sourceObjName>
+<createdBy>1</createdBy>
+<createdTime>2024-11-08 01:51:17 UTC</createdTime>
+<ownerDesignName>CLASS</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NO" id="185D7C99-5E11-70DB-3256-40B398DB6DFA">
+<sourceConnName>로컬=HR</sourceConnName>
+<sourceObjSchema>LESSON</sourceObjSchema>
+<sourceObjName>NO</sourceObjName>
+<createdBy>1</createdBy>
+<createdTime>2024-11-08 01:51:18 UTC</createdTime>
+<ownerDesignName>CLASS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUM" id="F629DBF9-4F15-ED4B-525D-9801B4E07A32">
+<sourceConnName>로컬=HR</sourceConnName>
+<sourceObjSchema>LESSON</sourceObjSchema>
+<sourceObjName>NUM</sourceObjName>
+<createdBy>1</createdBy>
+<createdTime>2024-11-08 01:51:18 UTC</createdTime>
+<ownerDesignName>CLASS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="73331BF9-59E6-E360-F0C9-0BE4E5B282A2">
+<sourceConnName>로컬=HR</sourceConnName>
+<sourceObjSchema>LESSON</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>1</createdBy>
+<createdTime>2024-11-08 01:51:18 UTC</createdTime>
+<ownerDesignName>CLASS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7E612664-43DC-0CD4-A8BA-67B88B545F3F" name="LESSON_NO_PK">
+<sourceConnName>로컬=HR</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>LESSON_NO_PK</sourceObjName>
+<createdBy>1</createdBy>
+<createdTime>2024-11-08 01:51:21 UTC</createdTime>
+<ownerDesignName>CLASS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="185D7C99-5E11-70DB-3256-40B398DB6DFA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E29F7773-3550-7ABA-99AE-CA4AB7569CFF" name="LESSON_NUM_UK">
+<sourceConnName>로컬=HR</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>LESSON_NUM_UK</sourceObjName>
+<createdBy>1</createdBy>
+<createdTime>2024-11-08 01:51:21 UTC</createdTime>
+<ownerDesignName>CLASS</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F629DBF9-4F15-ED4B-525D-9801B4E07A32"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E06EA00A-4040-FED6-124C-973842AC7EA5" schemaObject="45FA0792-8E3C-35C2-ABB4-9CE9E06FE8E9" name="LESSON_NO_PK">
+<sourceConnName>로컬=HR</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>LESSON_NO_PK</sourceObjName>
+<createdBy>1</createdBy>
+<createdTime>2024-11-08 01:51:21 UTC</createdTime>
+<ownerDesignName>CLASS</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="185D7C99-5E11-70DB-3256-40B398DB6DFA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8833A68F-4DE4-C744-6C8B-7897A3DA13CA" schemaObject="45FA0792-8E3C-35C2-ABB4-9CE9E06FE8E9" name="LESSON_NUM_UK">
+<sourceConnName>로컬=HR</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>LESSON_NUM_UK</sourceObjName>
+<createdBy>1</createdBy>
+<createdTime>2024-11-08 01:51:21 UTC</createdTime>
+<ownerDesignName>CLASS</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F629DBF9-4F15-ED4B-525D-9801B4E07A32"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

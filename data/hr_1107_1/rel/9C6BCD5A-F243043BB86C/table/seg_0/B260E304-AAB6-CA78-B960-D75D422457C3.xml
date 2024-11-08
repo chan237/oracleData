@@ -1,0 +1,162 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B260E304-AAB6-CA78-B960-D75D422457C3" schemaObject="3E842D69-D40C-C429-2635-0616E429F1BE" name="VIDRETURN">
+<sourceConnName>로컬=HR</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>VIDRETURN</sourceObjName>
+<createdBy>1</createdBy>
+<createdTime>2024-11-07 15:12:07 UTC</createdTime>
+<ownerDesignName>hr_1107_1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="VIDRETURNNO" id="A98C75D2-24CA-6F42-D777-A84DD75FAA3F">
+<sourceConnName>로컬=HR</sourceConnName>
+<sourceObjSchema>VIDRETURN</sourceObjSchema>
+<sourceObjName>VIDRETURNNO</sourceObjName>
+<createdBy>1</createdBy>
+<createdTime>2024-11-07 15:12:07 UTC</createdTime>
+<ownerDesignName>hr_1107_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USER_NO" id="D59B1097-14F5-84BA-ED11-76F21F5CDA9B">
+<sourceConnName>로컬=HR</sourceConnName>
+<sourceObjSchema>VIDRETURN</sourceObjSchema>
+<sourceObjName>USER_NO</sourceObjName>
+<createdBy>1</createdBy>
+<createdTime>2024-11-07 15:12:07 UTC</createdTime>
+<ownerDesignName>hr_1107_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D15BF3C0-69EC-6424-575E-08A7FE57B59B" referredColumn="DA40F08D-3514-3000-59CE-A38743FCC160"/>
+</associations>
+</Column>
+<Column name="VIDNO" id="E324481D-2606-DD83-B0CA-BBA91D78B291">
+<sourceConnName>로컬=HR</sourceConnName>
+<sourceObjSchema>VIDRETURN</sourceObjSchema>
+<sourceObjName>VIDNO</sourceObjName>
+<createdBy>1</createdBy>
+<createdTime>2024-11-07 15:12:07 UTC</createdTime>
+<ownerDesignName>hr_1107_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="39CA1955-3F70-60F7-8873-791105C6967D" referredColumn="05E3C774-3354-7D94-2DEF-E7148788233A"/>
+</associations>
+</Column>
+<Column name="RETURNIN" id="411E8000-C288-57D1-6132-7BC3F30C3EC8">
+<sourceConnName>로컬=HR</sourceConnName>
+<sourceObjSchema>VIDRETURN</sourceObjSchema>
+<sourceObjName>RETURNIN</sourceObjName>
+<createdBy>1</createdBy>
+<createdTime>2024-11-07 15:12:07 UTC</createdTime>
+<ownerDesignName>hr_1107_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RETURNOUT" id="0D523CDB-8CA1-F7AE-2718-28ED97B43A52">
+<sourceConnName>로컬=HR</sourceConnName>
+<sourceObjSchema>VIDRETURN</sourceObjSchema>
+<sourceObjName>RETURNOUT</sourceObjName>
+<createdBy>1</createdBy>
+<createdTime>2024-11-07 15:12:07 UTC</createdTime>
+<ownerDesignName>hr_1107_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RETURBPRICE" id="25B9A67A-938A-B4D4-E0C6-B85835CE7A42">
+<sourceConnName>로컬=HR</sourceConnName>
+<sourceObjSchema>VIDRETURN</sourceObjSchema>
+<sourceObjName>RETURBPRICE</sourceObjName>
+<createdBy>1</createdBy>
+<createdTime>2024-11-07 15:12:07 UTC</createdTime>
+<ownerDesignName>hr_1107_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,7,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BDBF937D-3C15-AA30-9830-CA4FC6786EE8" name="VIDRETURN_VIDRETURNNO_PK">
+<sourceConnName>로컬=HR</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>VIDRETURN_VIDRETURNNO_PK</sourceObjName>
+<createdBy>1</createdBy>
+<createdTime>2024-11-07 15:12:10 UTC</createdTime>
+<ownerDesignName>hr_1107_1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A98C75D2-24CA-6F42-D777-A84DD75FAA3F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FE49636A-AAB0-B505-622A-FA9EB2DE4206" schemaObject="3E842D69-D40C-C429-2635-0616E429F1BE" name="VIDRETURN_VIDRETURNNO_PK">
+<sourceConnName>로컬=HR</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>VIDRETURN_VIDRETURNNO_PK</sourceObjName>
+<createdBy>1</createdBy>
+<createdTime>2024-11-07 15:12:10 UTC</createdTime>
+<ownerDesignName>hr_1107_1</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A98C75D2-24CA-6F42-D777-A84DD75FAA3F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5D10EF17-5DA2-6C01-CB62-18CBDB574F0B" name="VIDRETURN_USER_NO_FK">
+<createdBy>1</createdBy>
+<createdTime>2024-11-07 15:12:11 UTC</createdTime>
+<ownerDesignName>hr_1107_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D59B1097-14F5-84BA-ED11-76F21F5CDA9B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="62FED6EB-219E-912A-DAF4-DE5D1B54911D" name="VIDRETURN_VIDNO_FK">
+<createdBy>1</createdBy>
+<createdTime>2024-11-07 15:12:11 UTC</createdTime>
+<ownerDesignName>hr_1107_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E324481D-2606-DD83-B0CA-BBA91D78B291"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="CUPANG" id="722F1E3F-87B4-0954-00FA-D8EB68153785" version="3.5">
+<createdBy>1</createdBy>
+<createdTime>2024-11-08 07:22:54 UTC</createdTime>
+<ownerDesignName>CUPANG</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>722F1E3F-87B4-0954-00FA-D8EB68153785</designId>
+</OSDM_Design>

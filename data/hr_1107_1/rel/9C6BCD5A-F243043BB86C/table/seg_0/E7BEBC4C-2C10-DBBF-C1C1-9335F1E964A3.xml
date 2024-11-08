@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E7BEBC4C-2C10-DBBF-C1C1-9335F1E964A3" schemaObject="3E842D69-D40C-C429-2635-0616E429F1BE" name="MAIN_USER">
+<sourceConnName>로컬=HR</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>MAIN_USER</sourceObjName>
+<createdBy>1</createdBy>
+<createdTime>2024-11-07 15:12:07 UTC</createdTime>
+<ownerDesignName>hr_1107_1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="USER_NO" id="DA40F08D-3514-3000-59CE-A38743FCC160">
+<sourceConnName>로컬=HR</sourceConnName>
+<sourceObjSchema>MAIN_USER</sourceObjSchema>
+<sourceObjName>USER_NO</sourceObjName>
+<createdBy>1</createdBy>
+<createdTime>2024-11-07 15:12:07 UTC</createdTime>
+<ownerDesignName>hr_1107_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USER_NAME" id="9EE3EC85-6C50-9CB4-D307-68C6A44539D8">
+<sourceConnName>로컬=HR</sourceConnName>
+<sourceObjSchema>MAIN_USER</sourceObjSchema>
+<sourceObjName>USER_NAME</sourceObjName>
+<createdBy>1</createdBy>
+<createdTime>2024-11-07 15:12:07 UTC</createdTime>
+<ownerDesignName>hr_1107_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USER_AGE" id="30B51EA4-9F4E-0948-2FDE-CA3C3A85874B">
+<sourceConnName>로컬=HR</sourceConnName>
+<sourceObjSchema>MAIN_USER</sourceObjSchema>
+<sourceObjName>USER_AGE</sourceObjName>
+<createdBy>1</createdBy>
+<createdTime>2024-11-07 15:12:07 UTC</createdTime>
+<ownerDesignName>hr_1107_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USER_PHONE" id="8DEE6EB1-96D4-8449-EACD-A19A1204070B">
+<sourceConnName>로컬=HR</sourceConnName>
+<sourceObjSchema>MAIN_USER</sourceObjSchema>
+<sourceObjName>USER_PHONE</sourceObjName>
+<createdBy>1</createdBy>
+<createdTime>2024-11-07 15:12:07 UTC</createdTime>
+<ownerDesignName>hr_1107_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USER_ADDRESS" id="714EA6BF-3296-5AD9-FCE8-15424D29B098">
+<sourceConnName>로컬=HR</sourceConnName>
+<sourceObjSchema>MAIN_USER</sourceObjSchema>
+<sourceObjName>USER_ADDRESS</sourceObjName>
+<createdBy>1</createdBy>
+<createdTime>2024-11-07 15:12:07 UTC</createdTime>
+<ownerDesignName>hr_1107_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3B13D256-D117-D0DB-FCE8-F054CB691F29" name="MAIN_USER_USER_NO_PK">
+<sourceConnName>로컬=HR</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>MAIN_USER_USER_NO_PK</sourceObjName>
+<createdBy>1</createdBy>
+<createdTime>2024-11-07 15:12:10 UTC</createdTime>
+<ownerDesignName>hr_1107_1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DA40F08D-3514-3000-59CE-A38743FCC160"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D6C42F55-2303-0364-EF84-6A69B9A241CB" schemaObject="3E842D69-D40C-C429-2635-0616E429F1BE" name="MAIN_USER_USER_NO_PK">
+<sourceConnName>로컬=HR</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>MAIN_USER_USER_NO_PK</sourceObjName>
+<createdBy>1</createdBy>
+<createdTime>2024-11-07 15:12:10 UTC</createdTime>
+<ownerDesignName>hr_1107_1</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DA40F08D-3514-3000-59CE-A38743FCC160"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
