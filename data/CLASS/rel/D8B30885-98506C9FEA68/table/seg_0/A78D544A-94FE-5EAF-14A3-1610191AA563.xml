@@ -1,0 +1,146 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A78D544A-94FE-5EAF-14A3-1610191AA563" schemaObject="45FA0792-8E3C-35C2-ABB4-9CE9E06FE8E9" name="TRAINEE">
+<sourceConnName>로컬=HR</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>TRAINEE</sourceObjName>
+<createdBy>1</createdBy>
+<createdTime>2024-11-08 01:51:17 UTC</createdTime>
+<ownerDesignName>CLASS</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NO" id="B9BE36A6-CBA3-0B1D-D2E0-160ED6FB9393">
+<sourceConnName>로컬=HR</sourceConnName>
+<sourceObjSchema>TRAINEE</sourceObjSchema>
+<sourceObjName>NO</sourceObjName>
+<createdBy>1</createdBy>
+<createdTime>2024-11-08 01:51:18 UTC</createdTime>
+<ownerDesignName>CLASS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ST_NUM" id="11EA3C35-41F9-A5A3-80FF-8B85F0190414">
+<sourceConnName>로컬=HR</sourceConnName>
+<sourceObjSchema>TRAINEE</sourceObjSchema>
+<sourceObjName>ST_NUM</sourceObjName>
+<createdBy>1</createdBy>
+<createdTime>2024-11-08 01:51:18 UTC</createdTime>
+<ownerDesignName>CLASS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,8,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="181E1B8D-F125-0412-9B99-2A2C81289476" referredColumn="AE2B3664-919E-D97A-E7B6-C7E84E3A529C"/>
+</associations>
+</Column>
+<Column name="L_NUM" id="4395BDCA-41A6-0AD7-D2CD-AC5CB05CF1EB">
+<sourceConnName>로컬=HR</sourceConnName>
+<sourceObjSchema>TRAINEE</sourceObjSchema>
+<sourceObjName>L_NUM</sourceObjName>
+<createdBy>1</createdBy>
+<createdTime>2024-11-08 01:51:18 UTC</createdTime>
+<ownerDesignName>CLASS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A12318F6-1057-F213-F341-002DB3DEC2CF" referredColumn="F629DBF9-4F15-ED4B-525D-9801B4E07A32"/>
+</associations>
+</Column>
+<Column name="SECTION" id="2D778ACD-FDBA-AB31-23A4-9BC7DC3A3C73">
+<sourceConnName>로컬=HR</sourceConnName>
+<sourceObjSchema>TRAINEE</sourceObjSchema>
+<sourceObjName>SECTION</sourceObjName>
+<createdBy>1</createdBy>
+<createdTime>2024-11-08 01:51:18 UTC</createdTime>
+<ownerDesignName>CLASS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 BYTE</dataTypeSize>
+<ownDataTypeParameters>8 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INDATE" id="9CCA7B72-355F-5E68-DB15-3A6629FFF6B0">
+<sourceConnName>로컬=HR</sourceConnName>
+<sourceObjSchema>TRAINEE</sourceObjSchema>
+<sourceObjName>INDATE</sourceObjName>
+<createdBy>1</createdBy>
+<createdTime>2024-11-08 01:51:18 UTC</createdTime>
+<ownerDesignName>CLASS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<defaultValue>SYSDATE</defaultValue>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="39835F4C-629B-3759-7FFB-EEFDCF705342" name="TRAINEE_NO_PK">
+<sourceConnName>로컬=HR</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>TRAINEE_NO_PK</sourceObjName>
+<createdBy>1</createdBy>
+<createdTime>2024-11-08 01:51:21 UTC</createdTime>
+<ownerDesignName>CLASS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B9BE36A6-CBA3-0B1D-D2E0-160ED6FB9393"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8057EEEB-B339-CA5F-2172-62345B4AA0B2" schemaObject="45FA0792-8E3C-35C2-ABB4-9CE9E06FE8E9" name="TRAINEE_NO_PK">
+<sourceConnName>로컬=HR</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>TRAINEE_NO_PK</sourceObjName>
+<createdBy>1</createdBy>
+<createdTime>2024-11-08 01:51:21 UTC</createdTime>
+<ownerDesignName>CLASS</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B9BE36A6-CBA3-0B1D-D2E0-160ED6FB9393"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="637459AE-D593-4DF4-73A0-EBAFC0EA49D6" name="TRAINEE_L_NUM_FK">
+<createdBy>1</createdBy>
+<createdTime>2024-11-08 01:51:22 UTC</createdTime>
+<ownerDesignName>CLASS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4395BDCA-41A6-0AD7-D2CD-AC5CB05CF1EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="36442A41-7BB3-1310-228D-4C695AF395CB" name="TRAINEE_ST_NUM_FK">
+<createdBy>1</createdBy>
+<createdTime>2024-11-08 01:51:22 UTC</createdTime>
+<ownerDesignName>CLASS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="11EA3C35-41F9-A5A3-80FF-8B85F0190414"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
