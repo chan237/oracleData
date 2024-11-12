@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="CUPANG" directorySegmentName="seg_0" id="E89787F2-3FF0-7C82-5F31-0BFDC9489927">
+<sourceConnName>로컬-CUPANG</sourceConnName>
+<sourceObjName>CUPANG</sourceObjName>
+<createdBy>1</createdBy>
+<createdTime>2024-11-08 08:02:38 UTC</createdTime>
+<ownerDesignName>CUPANG</ownerDesignName>
+<schemaObject>13942466-D1DC-0A48-A3B1-919E4A5BA5E1</schemaObject>
+<defTableSpace>DEB5A8B3-900C-D8F2-226E-C7A5890D0F73</defTableSpace>
+<privileges>UNLIMITED TABLESPACE</privileges>
+<profile>DEFAULT</profile>
+</UserOraclev10g>

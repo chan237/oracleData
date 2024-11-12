@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7818BA2D-AB1F-8A80-629E-4B4C68E41840" schemaObject="13942466-D1DC-0A48-A3B1-919E4A5BA5E1" name="C_USER">
+<sourceConnName>로컬-CUPANG</sourceConnName>
+<sourceObjSchema>CUPANG</sourceObjSchema>
+<sourceObjName>C_USER</sourceObjName>
+<createdBy>1</createdBy>
+<createdTime>2024-11-08 08:21:46 UTC</createdTime>
+<ownerDesignName>CUPANG</ownerDesignName>
+<importedID>AABCF2A9-C492-7EB5-ACE5-53B136245D88</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NO" id="4A8FDB8C-4ECB-CB62-1BC6-DE79EDEF0748">
+<sourceConnName>로컬-CUPANG</sourceConnName>
+<sourceObjSchema>C_USER</sourceObjSchema>
+<sourceObjName>NO</sourceObjName>
+<createdBy>1</createdBy>
+<createdTime>2024-11-08 08:21:46 UTC</createdTime>
+<ownerDesignName>CUPANG</ownerDesignName>
+<importedID>8712BE60-3869-6E09-A95F-CCB410632DC1</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADDR" id="DDE8FD8F-9C12-1E5B-683D-AC9C85BB1829">
+<sourceConnName>로컬-CUPANG</sourceConnName>
+<sourceObjSchema>C_USER</sourceObjSchema>
+<sourceObjName>ADDR</sourceObjName>
+<createdBy>1</createdBy>
+<createdTime>2024-11-08 08:21:46 UTC</createdTime>
+<ownerDesignName>CUPANG</ownerDesignName>
+<importedID>E6EE109F-CF22-CCC9-5C9C-ED3AC2120D2E</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="2FAA629D-0215-5A2A-C517-071C88C2A22E">
+<sourceConnName>로컬-CUPANG</sourceConnName>
+<sourceObjSchema>C_USER</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>1</createdBy>
+<createdTime>2024-11-08 08:21:46 UTC</createdTime>
+<ownerDesignName>CUPANG</ownerDesignName>
+<importedID>C7BBF855-2481-6E2C-E44B-CE59301A728E</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PHONE" id="8AE40260-60DF-C53E-B739-0075835A6122">
+<sourceConnName>로컬-CUPANG</sourceConnName>
+<sourceObjSchema>C_USER</sourceObjSchema>
+<sourceObjName>PHONE</sourceObjName>
+<createdBy>1</createdBy>
+<createdTime>2024-11-08 08:21:46 UTC</createdTime>
+<ownerDesignName>CUPANG</ownerDesignName>
+<importedID>163D3890-F3E2-61C9-1634-C01120E0A8A1</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>13 BYTE</dataTypeSize>
+<ownDataTypeParameters>13 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6C0C2DE4-7070-2503-E14B-B1350C6D7BBF" name="C_USER_PK">
+<sourceConnName>로컬-CUPANG</sourceConnName>
+<sourceObjSchema>CUPANG</sourceObjSchema>
+<sourceObjName>C_USER_PK</sourceObjName>
+<createdBy>1</createdBy>
+<createdTime>2024-11-08 08:21:46 UTC</createdTime>
+<ownerDesignName>CUPANG</ownerDesignName>
+<importedID>B947AA28-B87D-1585-B2A4-852310C14FD0</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4A8FDB8C-4ECB-CB62-1BC6-DE79EDEF0748"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5996ABE6-6004-7036-708B-3B61813F3BC1" name="C_USER_UK">
+<sourceConnName>로컬-CUPANG</sourceConnName>
+<sourceObjSchema>CUPANG</sourceObjSchema>
+<sourceObjName>C_USER_UK</sourceObjName>
+<createdBy>1</createdBy>
+<createdTime>2024-11-08 08:21:46 UTC</createdTime>
+<ownerDesignName>CUPANG</ownerDesignName>
+<importedID>5E65FAD7-055F-5B41-36F9-226095435EC3</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DDE8FD8F-9C12-1E5B-683D-AC9C85BB1829"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C7CA636D-969C-0490-3113-1540365A6F11" schemaObject="13942466-D1DC-0A48-A3B1-919E4A5BA5E1" name="C_USER_PK">
+<sourceConnName>로컬-CUPANG</sourceConnName>
+<sourceObjSchema>CUPANG</sourceObjSchema>
+<sourceObjName>C_USER_PK</sourceObjName>
+<createdBy>1</createdBy>
+<createdTime>2024-11-08 08:21:46 UTC</createdTime>
+<ownerDesignName>CUPANG</ownerDesignName>
+<importedID>8530C14C-4DB8-7959-2EDA-4BAF968F6C96</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4A8FDB8C-4ECB-CB62-1BC6-DE79EDEF0748"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D4B85B0F-9FAE-B4E6-25F0-D36D7EE77EA7" schemaObject="13942466-D1DC-0A48-A3B1-919E4A5BA5E1" name="C_USER_UK">
+<sourceConnName>로컬-CUPANG</sourceConnName>
+<sourceObjSchema>CUPANG</sourceObjSchema>
+<sourceObjName>C_USER_UK</sourceObjName>
+<createdBy>1</createdBy>
+<createdTime>2024-11-08 08:21:46 UTC</createdTime>
+<ownerDesignName>CUPANG</ownerDesignName>
+<importedID>C3551A9A-694A-B45F-1F6D-571D4A6059F8</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DDE8FD8F-9C12-1E5B-683D-AC9C85BB1829"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
