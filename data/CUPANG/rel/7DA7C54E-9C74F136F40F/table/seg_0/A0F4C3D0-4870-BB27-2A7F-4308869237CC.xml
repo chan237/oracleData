@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A0F4C3D0-4870-BB27-2A7F-4308869237CC" name="DELIVERY">
+<createdBy>1</createdBy>
+<createdTime>2024-11-08 07:42:53 UTC</createdTime>
+<ownerDesignName>CUPANG</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NO" id="755EFCB3-4EAF-96FC-F7B4-8FE9072B1AC4">
+<createdBy>1</createdBy>
+<createdTime>2024-11-08 07:43:45 UTC</createdTime>
+<ownerDesignName>CUPANG</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="671C3FCD-3C08-1832-2D60-43B3ECFB9FED" referredColumn="58C8CAB7-403B-9251-8517-6ED02D7706E4"/>
+</associations>
+</Column>
+<Column name="DELIDATE" id="4B924F42-2580-E9B6-1CE3-9133A59ED745">
+<createdBy>1</createdBy>
+<createdTime>2024-11-08 07:46:36 UTC</createdTime>
+<ownerDesignName>CUPANG</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ODER_NO" id="F02C6C1A-26B1-4DB8-77C9-56C8722701BF">
+<createdBy>1</createdBy>
+<createdTime>2024-11-08 07:50:03 UTC</createdTime>
+<ownerDesignName>CUPANG</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="536C7253-8693-FCCA-64F3-E0C0488242E7" referredColumn="24D1DA37-F1FE-5050-E9C1-99A54EC92283"/>
+</associations>
+</Column>
+<Column name="C_USER_ADDR" id="7C50FB5E-70EB-B2EA-0CDA-8E4A205F58A8">
+<createdBy>1</createdBy>
+<createdTime>2024-11-08 08:14:23 UTC</createdTime>
+<ownerDesignName>CUPANG</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="671C3FCD-3C08-1832-2D60-43B3ECFB9FED" referredColumn="11BE4CCC-6184-2693-879B-79EC1133B30E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AB68D5C7-4356-2296-80D4-DE39B4A5F633" name="DELIVERY_PK">
+<createdBy>1</createdBy>
+<createdTime>2024-11-08 07:43:45 UTC</createdTime>
+<ownerDesignName>CUPANG</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="755EFCB3-4EAF-96FC-F7B4-8FE9072B1AC4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="96CDE8DA-8184-AF91-15AF-076EBD83D376" name="DELIVERY_ODER_FK">
+<createdBy>1</createdBy>
+<createdTime>2024-11-08 07:50:03 UTC</createdTime>
+<ownerDesignName>CUPANG</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F02C6C1A-26B1-4DB8-77C9-56C8722701BF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="91C2E1E1-00C6-9AD3-A78C-1511B6A779BF" name="DELIVERY_C_USER_FK">
+<createdBy>1</createdBy>
+<createdTime>2024-11-08 08:14:23 UTC</createdTime>
+<ownerDesignName>CUPANG</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="755EFCB3-4EAF-96FC-F7B4-8FE9072B1AC4"/>
+<colUsage columnID="7C50FB5E-70EB-B2EA-0CDA-8E4A205F58A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

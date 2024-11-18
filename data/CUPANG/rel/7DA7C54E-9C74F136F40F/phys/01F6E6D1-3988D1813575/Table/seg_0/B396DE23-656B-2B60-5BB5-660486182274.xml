@@ -1,0 +1,41 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="GOODS" directorySegmentName="seg_0" id="B396DE23-656B-2B60-5BB5-660486182274">
+<createdBy>1</createdBy>
+<createdTime>2024-11-08 08:02:41 UTC</createdTime>
+<ownerDesignName>CUPANG</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NAME" id="007F395C-4319-05ED-3D49-1607CF98685C">
+<createdBy>1</createdBy>
+<createdTime>2024-11-08 08:02:41 UTC</createdTime>
+<ownerDesignName>CUPANG</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRICE" id="0BECB7FD-3B9E-A481-67FD-C837A09234D2">
+<createdBy>1</createdBy>
+<createdTime>2024-11-08 08:02:41 UTC</createdTime>
+<ownerDesignName>CUPANG</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STOCK" id="24E48E55-4194-6303-969C-2A88CD937192">
+<createdBy>1</createdBy>
+<createdTime>2024-11-08 08:02:41 UTC</createdTime>
+<ownerDesignName>CUPANG</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NO" id="B5722650-052D-D67B-43D2-B1A7389094D4">
+<createdBy>1</createdBy>
+<createdTime>2024-11-08 08:02:41 UTC</createdTime>
+<ownerDesignName>CUPANG</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="GOODS_PK" id="498943BB-65AF-FE59-4AD0-BBBFFBACEB63">
+<createdBy>1</createdBy>
+<createdTime>2024-11-08 08:02:41 UTC</createdTime>
+<ownerDesignName>CUPANG</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

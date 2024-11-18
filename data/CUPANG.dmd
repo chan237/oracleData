@@ -5,4 +5,12 @@
 <ownerDesignName>CUPANG</ownerDesignName>
 <capitalNames>false</capitalNames>
 <designId>722F1E3F-87B4-0954-00FA-D8EB68153785</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="C1C7E43D-C1C6-CA2F-7CB4-8FAAC6AD9835">
+<designStoragePath>D:\oracleData\data</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="63C28ED9-1FFC-D155-79A3-C508939D6860">
+<designStoragePath>D:\oracleData\data</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
 </OSDM_Design>

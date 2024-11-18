@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="055D5D40-0B5A-8877-132E-B354AAC13CAE" name="BUYTABLE">
+<createdBy>1</createdBy>
+<createdTime>2024-11-08 05:39:24 UTC</createdTime>
+<ownerDesignName>SHOPPINGMALL</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PHONE" id="B428288A-D632-3666-42B4-017693EAA6F5">
+<createdBy>1</createdBy>
+<createdTime>2024-11-08 05:40:06 UTC</createdTime>
+<ownerDesignName>SHOPPINGMALL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>13 CHAR</dataTypeSize>
+<ownDataTypeParameters>13 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PDNAME" id="B1D7E59F-9810-70BB-A434-87004EEB1D26">
+<createdBy>1</createdBy>
+<createdTime>2024-11-08 05:41:04 UTC</createdTime>
+<ownerDesignName>SHOPPINGMALL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRICE" id="D8BBCFD7-69A4-B3E7-32DC-AA8BA09DD739">
+<createdBy>1</createdBy>
+<createdTime>2024-11-08 05:41:30 UTC</createdTime>
+<ownerDesignName>SHOPPINGMALL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AMOUNT" id="F12EC757-7AF0-C85E-3CE1-6FAEAB6C2077">
+<createdBy>1</createdBy>
+<createdTime>2024-11-08 05:41:55 UTC</createdTime>
+<ownerDesignName>SHOPPINGMALL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NO" id="BACBBBF2-3C45-7A2B-20CC-8AC6FFDC7035">
+<createdBy>1</createdBy>
+<createdTime>2024-11-08 05:43:05 UTC</createdTime>
+<ownerDesignName>SHOPPINGMALL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USERTABLE_PHONE" id="4A5079DF-3754-D8C2-B3C1-C2F6AB49EB96">
+<createdBy>1</createdBy>
+<createdTime>2024-11-08 05:43:26 UTC</createdTime>
+<ownerDesignName>SHOPPINGMALL</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="51D90962-B3E3-5298-9270-0637DF160E83" referredColumn="04148DF4-C0EE-E90E-0404-1346C021CE19"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8EFE201F-E295-CBE9-8644-24E4D17BD1B6" name="BUYTABLE_PK">
+<createdBy>1</createdBy>
+<createdTime>2024-11-08 05:43:05 UTC</createdTime>
+<ownerDesignName>SHOPPINGMALL</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BACBBBF2-3C45-7A2B-20CC-8AC6FFDC7035"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="26D41449-3635-82EE-AE16-82CAD84097C6" name="BUYTABLE_USERTABLE_FK">
+<createdBy>1</createdBy>
+<createdTime>2024-11-08 05:43:26 UTC</createdTime>
+<ownerDesignName>SHOPPINGMALL</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4A5079DF-3754-D8C2-B3C1-C2F6AB49EB96"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
