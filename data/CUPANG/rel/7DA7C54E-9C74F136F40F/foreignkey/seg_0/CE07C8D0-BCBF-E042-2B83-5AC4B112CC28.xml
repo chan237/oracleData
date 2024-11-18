@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CE07C8D0-BCBF-E042-2B83-5AC4B112CC28" containerWithKeyObject="5FB584A9-408F-829D-D763-B942FCB671BB" localFKIndex="ABD71C8E-37DE-9765-B2BB-BEABBD6F69E8" name="DELIVERY_C_USER_FK">
+<sourceConnName>로컬-CUPANG</sourceConnName>
+<sourceObjSchema>CUPANG</sourceObjSchema>
+<sourceObjName>DELIVERY_C_USER_FK</sourceObjName>
+<createdBy>1</createdBy>
+<createdTime>2024-11-08 08:21:46 UTC</createdTime>
+<ownerDesignName>CUPANG</ownerDesignName>
+<importedID>D7805347-D5E4-82AE-92DD-AFA636B861A8</importedID>
+<referredTableLongName>CUPANG.C_USER</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>7818BA2D-AB1F-8A80-629E-4B4C68E41840</referredTableID>
+<keyObject>5996ABE6-6004-7036-708B-3B61813F3BC1</keyObject>
+<referredKeyID>5996ABE6-6004-7036-708B-3B61813F3BC1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ADDR</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

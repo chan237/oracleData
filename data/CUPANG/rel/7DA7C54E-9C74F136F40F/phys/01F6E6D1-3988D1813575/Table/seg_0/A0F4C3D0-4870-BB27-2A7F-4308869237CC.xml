@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="DELIVERY" directorySegmentName="seg_0" id="A0F4C3D0-4870-BB27-2A7F-4308869237CC">
+<createdBy>1</createdBy>
+<createdTime>2024-11-08 08:02:41 UTC</createdTime>
+<ownerDesignName>CUPANG</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DELIDATE" id="4B924F42-2580-E9B6-1CE3-9133A59ED745">
+<createdBy>1</createdBy>
+<createdTime>2024-11-08 08:02:41 UTC</createdTime>
+<ownerDesignName>CUPANG</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NO" id="755EFCB3-4EAF-96FC-F7B4-8FE9072B1AC4">
+<createdBy>1</createdBy>
+<createdTime>2024-11-08 08:02:41 UTC</createdTime>
+<ownerDesignName>CUPANG</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="C_USER_ADDR" id="7C50FB5E-70EB-B2EA-0CDA-8E4A205F58A8">
+<createdBy>1</createdBy>
+<createdTime>2024-11-08 08:14:23 UTC</createdTime>
+<ownerDesignName>CUPANG</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ODER_NO" id="F02C6C1A-26B1-4DB8-77C9-56C8722701BF">
+<createdBy>1</createdBy>
+<createdTime>2024-11-08 08:02:41 UTC</createdTime>
+<ownerDesignName>CUPANG</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="DELIVERY_C_USER_FK" id="91C2E1E1-00C6-9AD3-A78C-1511B6A779BF">
+<createdBy>1</createdBy>
+<createdTime>2024-11-08 08:14:23 UTC</createdTime>
+<ownerDesignName>CUPANG</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="DELIVERY_ODER_FK" id="96CDE8DA-8184-AF91-15AF-076EBD83D376">
+<createdBy>1</createdBy>
+<createdTime>2024-11-08 08:02:41 UTC</createdTime>
+<ownerDesignName>CUPANG</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="DELIVERY_PK" id="AB68D5C7-4356-2296-80D4-DE39B4A5F633">
+<createdBy>1</createdBy>
+<createdTime>2024-11-08 08:02:41 UTC</createdTime>
+<ownerDesignName>CUPANG</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

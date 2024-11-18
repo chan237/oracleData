@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="94E09C36-EA1F-197A-615B-50375E4F7BF1" containerWithKeyObject="86CCBEC6-2BA8-464D-8AA4-2B8269F57554" localFKIndex="2495CB8D-104B-1DEF-AC3D-99B198073C4A" name="ODER_GOODS_FK">
+<createdBy>1</createdBy>
+<createdTime>2024-11-08 07:48:11 UTC</createdTime>
+<ownerDesignName>CUPANG</ownerDesignName>
+<referredTableLongName>GOODS</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>B396DE23-656B-2B60-5BB5-660486182274</referredTableID>
+<keyObject>498943BB-65AF-FE59-4AD0-BBBFFBACEB63</keyObject>
+<referredKeyID>498943BB-65AF-FE59-4AD0-BBBFFBACEB63</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>NO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorColumn>B5722650-052D-D67B-43D2-B1A7389094D4</discriminatorColumn>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

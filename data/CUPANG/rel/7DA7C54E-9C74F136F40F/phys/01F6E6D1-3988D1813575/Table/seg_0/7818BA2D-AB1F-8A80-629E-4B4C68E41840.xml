@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="C_USER" directorySegmentName="seg_0" id="7818BA2D-AB1F-8A80-629E-4B4C68E41840">
+<createdBy>1</createdBy>
+<createdTime>2024-11-08 08:21:46 UTC</createdTime>
+<ownerDesignName>CUPANG</ownerDesignName>
+<schemaObject>13942466-D1DC-0A48-A3B1-919E4A5BA5E1</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>31121605-F146-13D7-3CBE-737D77B2E6BB</segment>
+<tableSpace>DEB5A8B3-900C-D8F2-226E-C7A5890D0F73</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NAME" id="2FAA629D-0215-5A2A-C517-071C88C2A22E">
+<createdBy>1</createdBy>
+<createdTime>2024-11-08 08:21:46 UTC</createdTime>
+<ownerDesignName>CUPANG</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NO" id="4A8FDB8C-4ECB-CB62-1BC6-DE79EDEF0748">
+<createdBy>1</createdBy>
+<createdTime>2024-11-08 08:21:46 UTC</createdTime>
+<ownerDesignName>CUPANG</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PHONE" id="8AE40260-60DF-C53E-B739-0075835A6122">
+<createdBy>1</createdBy>
+<createdTime>2024-11-08 08:21:46 UTC</createdTime>
+<ownerDesignName>CUPANG</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ADDR" id="DDE8FD8F-9C12-1E5B-683D-AC9C85BB1829">
+<createdBy>1</createdBy>
+<createdTime>2024-11-08 08:21:46 UTC</createdTime>
+<ownerDesignName>CUPANG</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="C_USER_PK" id="C7CA636D-969C-0490-3113-1540365A6F11">
+<createdBy>1</createdBy>
+<createdTime>2024-11-08 08:21:46 UTC</createdTime>
+<ownerDesignName>CUPANG</ownerDesignName>
+<schemaObject>13942466-D1DC-0A48-A3B1-919E4A5BA5E1</schemaObject>
+<segment>4DDCC486-A2E0-4AFC-F4D6-19A730AEC011</segment>
+<tableSpace>DEB5A8B3-900C-D8F2-226E-C7A5890D0F73</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="C_USER_UK" id="D4B85B0F-9FAE-B4E6-25F0-D36D7EE77EA7">
+<createdBy>1</createdBy>
+<createdTime>2024-11-08 08:21:46 UTC</createdTime>
+<ownerDesignName>CUPANG</ownerDesignName>
+<schemaObject>13942466-D1DC-0A48-A3B1-919E4A5BA5E1</schemaObject>
+<segment>4DDCC486-A2E0-4AFC-F4D6-19A730AEC011</segment>
+<tableSpace>DEB5A8B3-900C-D8F2-226E-C7A5890D0F73</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="C_USER_PK" id="6C0C2DE4-7070-2503-E14B-B1350C6D7BBF">
+<createdBy>1</createdBy>
+<createdTime>2024-11-08 08:21:46 UTC</createdTime>
+<ownerDesignName>CUPANG</ownerDesignName>
+<segment>4DDCC486-A2E0-4AFC-F4D6-19A730AEC011</segment>
+<tableSpace>DEB5A8B3-900C-D8F2-226E-C7A5890D0F73</tableSpace>
+<existingIndex>C7CA636D-969C-0490-3113-1540365A6F11</existingIndex>
+<indexSegment>4DDCC486-A2E0-4AFC-F4D6-19A730AEC011</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="C_USER_UK" id="5996ABE6-6004-7036-708B-3B61813F3BC1">
+<createdBy>1</createdBy>
+<createdTime>2024-11-08 08:21:46 UTC</createdTime>
+<ownerDesignName>CUPANG</ownerDesignName>
+<segment>4DDCC486-A2E0-4AFC-F4D6-19A730AEC011</segment>
+<tableSpace>DEB5A8B3-900C-D8F2-226E-C7A5890D0F73</tableSpace>
+<existingIndex>D4B85B0F-9FAE-B4E6-25F0-D36D7EE77EA7</existingIndex>
+<indexSegment>4DDCC486-A2E0-4AFC-F4D6-19A730AEC011</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev20c>
