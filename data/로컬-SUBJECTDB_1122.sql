@@ -72,3 +72,5 @@ increment by 1;
 create sequence trainee_seq 
 start with 1
 increment by 1;
+
+insert into subject(no, num, name) values (subject_seq.nextval, ?, ?);
