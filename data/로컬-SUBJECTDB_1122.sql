@@ -18,7 +18,7 @@ create table student(
     name varchar2(12) not null,     --이름
     id varchar2(12) not null,       --아이디
     passwd varchar2(12) not null,   --패스워드
-    s_num varchar2(2) not null,     --학과번호(fk)
+    s_num varchar2(2),     --학과번호(fk)
     birthday varchar2(8) not null,  --생년월일
     phone varchar2(15) not null,    --전화번호
     address varchar2(80) not null,  --주소
@@ -37,22 +37,25 @@ alter table student drop constraint student_subject_num_fk; --제약조건 이�
 create table lesson( 
     no number,                      --pk, seq
     abbre varchar2(2) not null,     --과목 약어
-    name varchar2(20) not null      --과목 이름
+    name varchar2(40) not null      --과목 이름
 );
 alter table lesson add CONSTRAINT lesson_no_pk PRIMARY key(no);
 alter table lesson add CONSTRAINT lesson_abbre_uk UNIQUE(abbre);
 
+drop table trainee;
+drop table lesson;
+
 --수강신청
 create table trainee( 
     no number ,                         --pk seq
-    snum varchar2(8) not null,          --fk(student) 학생번호
+    s_num varchar2(8) not null,          --fk(student) 학생번호
     abbre varchar2(2) not null,         --fk(lesson) 과목약어
     section varchar2(20) not null,      --전공
-    tdate date default sysdate         --수강신청일
+    registdate date default sysdate         --수강신청일
 );
 alter table trainee add CONSTRAINT trainee_no_pk PRIMARY key(no);
 alter table trainee add CONSTRAINT trainee_student_num_fk 
-    FOREIGN key(snum) REFERENCES student(num) on delete set null;
+    FOREIGN key(s_num) REFERENCES student(num) on delete set null;
 alter table trainee add CONSTRAINT student_lesson_addre_fk 
     FOREIGN key(abbre) REFERENCES lesson(abbre) on delete set null;
 
@@ -74,3 +77,33 @@ start with 1
 increment by 1;
 
 insert into subject(no, num, name) values (subject_seq.nextval, ?, ?);
+
+select * from lesson;
+delete from lesson where no = 4;
+UPDATE LESSON SET ABBRE = '', NAME ='' WHERE NO=10;
+insert into lesson VALUES(lesson_seq.nextval,'A','어셈블');
+insert into lesson VALUES(lesson_seq.nextval,'B','비만');
+commit;
+
+
+
+SELECT SEQUENCE_NAME 
+FROM ALL_SEQUENCES 
+WHERE SEQUENCE_NAME = upper('lesson_seq');
+
+GRANT SELECT ON lesson_seq TO SUBJECTDB;
+
+UPDATE TRAINEE SET S_NUM = '', ABBRE = '', SECTION = '' WHERE no = 10;
+
+select t.no, t.section, t.registdate, s.num, s.name, l.abbre, l.name as abbreName from 
+trainee T 
+inner join student S on t.s_num = s.num 
+inner join lesson L on t.abbre = l.abbre 
+order by T.no;
+
+SELECT NUM, NAME, EMAIL FROM STUDENT WHERE NAME = 'kdj0';
+
+alter table trainee drop constraint trainee_lesson_abbre_fk;
+select * from subject;
+select * from lesson;
+select * from trainee;
