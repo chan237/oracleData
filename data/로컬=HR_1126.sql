@@ -53,3 +53,13 @@ BEGIN
     DBMS_OUTPUT.PUT_LINE('결과 메시지: ' || VMESSAGE);
 END;
 /
+drop table LANDPRICE;
+create table LANDPRICE (
+	NODENO number, --pk
+	GPSLATI number,
+	GPSLONG number,
+	NODEID varchar2(20) not null, --uk
+	NODENM varchar2(100)
+);
+Alter table LANDPRICE add CONSTRAINT LANDPRICE_NODENO_PK PRIMARY KEY(NODENO);
+Alter table LANDPRICE add CONSTRAINT LANDPRICE_NODEID_UK UNIQUE(NODEID);
